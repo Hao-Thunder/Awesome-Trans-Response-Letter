@@ -1,8 +1,8 @@
 <div align="center">
 
-# Awesome Trans Response Letter
+# Peer Review Response Writer
 
-### A ChatGPT Skill for rigorous, evidence-grounded academic response letters
+### A Skill for drafting rigorous, evidence-grounded, point-by-point responses to academic peer-review comments.
 
 Transform reviewer comments, revision plans, and manuscript evidence into clear, professional, point-by-point responses—without inventing experiments, results, or manuscript changes.
 
