@@ -2,7 +2,7 @@
 
 # Peer Review Response Writer
 
-### A Skill for drafting rigorous, evidence-grounded, point-by-point responses to academic peer-review comments.
+### A Skill for rigorous, evidence-grounded academic response letters
 
 Transform reviewer comments, revision plans, and manuscript evidence into clear, professional, point-by-point responses—without inventing experiments, results, or manuscript changes.
 
@@ -19,7 +19,7 @@ Transform reviewer comments, revision plans, and manuscript evidence into clear,
 
 ## Overview
 
-**Awesome Trans Response Letter** is a reusable ChatGPT Skill for preparing academic response letters, rebuttals, and revision notes.
+**Peer Review Response Writer** is a reusable ChatGPT Skill for preparing academic response letters, rebuttals, and revision notes.
 
 It is designed for authors who need to convert fragmented materials—such as reviewer comments, draft ideas, experiment plans, equations, manuscript excerpts, and revision locations—into a coherent response that:
 
@@ -209,8 +209,8 @@ rather than inventing a location.
 ### 1. Clone or download the repository
 
 ```bash
-git clone https://github.com/Hao-Thunder/Awesome-Trans-Response-Letter.git
-cd Awesome-Trans-Response-Letter
+git clone https://github.com/Hao-Thunder/Peer-Review-Response-Writer.git
+cd Peer-Review-Response-Writer
 ```
 
 You can also download the repository as a ZIP archive.
@@ -222,7 +222,7 @@ Import the Skill folder or packaged ZIP into a ChatGPT environment that supports
 ### 3. Invoke it with a concrete task
 
 ```text
-Use Awesome Trans Response Letter to analyze the reviewer comment below.
+Use Peer Review Response Writer to analyze the reviewer comment below.
 
 First identify the core concern and evaluate whether my planned response
 fully addresses it. Then draft:
@@ -432,7 +432,7 @@ Before finalizing a response, verify that:
 The minimal Skill requires a `SKILL.md` entrypoint. A maintainable extended structure may look like this:
 
 ```text
-Awesome-Trans-Response-Letter/
+Peer-Review-Response-Writer/
 ├── SKILL.md
 ├── README.md
 ├── agents/
@@ -489,7 +489,7 @@ The authors remain responsible for validating every technical claim and every st
 
 ## 中文说明
 
-**Awesome Trans Response Letter** 是一个面向论文返修和审稿回复的 ChatGPT Skill。它的主要目标不是简单润色，而是把以下材料组织成逻辑完整、证据充分、可直接用于返修信的逐点回复：
+**Peer Review Response Writer** 是一个面向论文返修和审稿回复的 ChatGPT Skill。它的主要目标不是简单润色，而是把以下材料组织成逻辑完整、证据充分、可直接用于返修信的逐点回复：
 
 - 审稿意见；
 - 作者的中文或英文回复思路；
@@ -512,7 +512,7 @@ The authors remain responsible for validating every technical claim and every st
 ### 推荐调用方式
 
 ```text
-请使用 Awesome Trans Response Letter 处理下面的审稿意见。
+请使用 Peer Review Response Writer 处理下面的审稿意见。
 
 要求：
 1. 先分析审稿人的真正关切；
